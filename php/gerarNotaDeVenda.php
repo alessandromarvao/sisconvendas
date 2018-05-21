@@ -184,7 +184,6 @@ if(isset($_REQUEST['id'])){
         <div class="quebraPagina"></div>
        
         <!-------------- FIM Quebra de P�gina para Impress�o -------------->
-        <br/>
         <div class="hidden-lg hidden-md hidden-sm">
             <div> 2ª VIA </div>
             <div id="via2"></div>
