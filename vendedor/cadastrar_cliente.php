@@ -2,7 +2,7 @@
 include_once '../cls/sessao.class.php';
 
 $sessao = new Sessao();
-//Confere se a autenticação foi validada.
+//Confere se a autenticaï¿½ï¿½o foi validada.
 if(!$sessao->situacaoOK()){
     header("location: ../php/logoff.php");
 }
@@ -16,10 +16,10 @@ if(strcmp($sessao->getFuncao(), 'vendedor(a)')!==0){
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Sistema de Controle de Estoque e Vendas - ESPAÇO CONFORTO</title>
+    <title>Sistema de Controle de Estoque e Vendas - ESPAÃ‡O CONFORTO</title>
     
     <script src="../js/ajax.js"></script>
     <script src="js/cliente.js"></script>
@@ -68,25 +68,25 @@ if(strcmp($sessao->getFuncao(), 'vendedor(a)')!==0){
                         <input type="text" class="form-control" id="cpf" placeholder="Digite aqui o CPF" onblur="enviaDados('obter', 'cpf')" autofocus required />
                         <br />
                         <label>Nome</label>
-                        <input type="text" class="form-control" id="nome" placeholder="Digite aqui o nome completo do funcionário" required />
+                        <input type="text" class="form-control" id="nome" placeholder="Digite aqui o nome completo do cliente" required />
                         <br />
                         <label>E-mail (Opcional)</label>
-                        <input type="email" class="form-control" id="email" placeholder="Digite aqui o nome completo do funcionário" required />
+                        <input type="email" class="form-control" id="email" placeholder="Digite aqui o nome completo do cliente" required />
                         <br />
                         <label>Data de Nascimento (Opcional)</label>
                         <input type="text" class="form-control" id="data_nascimento" placeholder="DD/MM/AAAA" required />
                         <br />
-                        <label>Endereço</label>
+                        <label>Endereï¿½o</label>
                         <input type="text" class="form-control" id="end" placeholder="rua, casa ou apartamento, bloco ou quadra" required />
                         <br />
                         <label>Bairro</label>
                         <input type="text" class="form-control" id="bai" placeholder="Digite aqui o bairro que o cliente reside atualmente" required />
                         <br />
-                        <label>Ponto de Referência</label>
-                        <input type="text" class="form-control" id="ref" placeholder="Digite aqui um local como ponto de referência à residência do cliente" required />
+                        <label>Ponto de Referï¿½ncia</label>
+                        <input type="text" class="form-control" id="ref" placeholder="Digite aqui um local como ponto de referÃªncia Ã  residÃªncia do cliente" required />
                         <br />
                         <label>CEP (Opcional)</label>
-                        <input type="text" class="form-control" id="cep" placeholder="Digite aqui o CEP do endereço do cliente" />
+                        <input type="text" class="form-control" id="cep" placeholder="Digite aqui o CEP do endereÃ§o do cliente" />
                         <br />
                         <label>Telefone(Opcional)</label>
                         <input type="text" class="form-control" id="tel" placeholder="Digite aqui o telefone fixo" />
@@ -109,7 +109,7 @@ if(strcmp($sessao->getFuncao(), 'vendedor(a)')!==0){
                                 </button>
                             </div>
                             <div class='col-md-4'>
-                                <a href="index.php" class="btn btn-lg btn-block btn-warning spacing" title="Cancela o cadastro e volta à pagina ininical">
+                                <a href="index.php" class="btn btn-lg btn-block btn-warning spacing" title="Cancela o cadastro e volta ï¿½ pagina ininical">
                                     <span class="glyphicon glyphicon-remove"></span>  Cancelar</a>
                             </div>
                         </div>
