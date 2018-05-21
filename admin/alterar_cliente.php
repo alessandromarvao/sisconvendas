@@ -79,7 +79,7 @@ $txtLogin="<input type='text' class='form-control' value='" . $login . "' id='tx
                 <input type='text' class='form-control' id='txtEnd' />
                 <label class='spacing'>Bairro:</label>
                 <input type='text' class='form-control' id='txtBairro' />
-                <label class='spacing'>Ponto de refer�ncia:</label>
+                <label class='spacing'>Ponto de referência:</label>
                 <input type='text' class='form-control' id='txtRef' />
                 <label class='spacing'>CEP (Opcional):</label>
                 <input type='text' class='form-control' id='txtCEP' />

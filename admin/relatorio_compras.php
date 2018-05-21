@@ -2,9 +2,9 @@
 include_once '../cls/sessao.class.php';
 
 /*
- * @author Alessandro Marvão <alessandromarvao@gmail.com>
+ * @author Alessandro Marvï¿½o <alessandromarvao@gmail.com>
  * @version 0.1
- * @copyright (c) 2015, Alessandro Marvão
+ * @copyright (c) 2015, Alessandro Marvï¿½o
  */
 
 $sessao = new Sessao();
@@ -22,7 +22,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -57,7 +57,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
             <div class="col-md-8">
                 <label class='col-md-10'>
                     <input type='radio' id='chkData' value='0' onclick="checaCampo('data')" />
-                    Pesquisar por período:
+                    Pesquisar por perÃ­odo:
                     <div id='divDatas'></div>
                 </label>
                 <label class='col-md-10'>
@@ -71,7 +71,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
                 <label class='col-md-10'>
                     <br/>
                     <input type='radio' id='chkMovel' value='0' onclick="checaCampo('movel')" />
-                    Pesquisar por Móvel
+                    Pesquisar por MÃ³vel
                     <div>
                         <div class="col-md-8" id='divMovel'></div>
                     </div>
@@ -80,10 +80,10 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
         </div>
         <div class="row spacing">
             <div class="col-sm-3">
-                <a href="index.php" class="btn btn-lg btn-block btn-default spacing" title='Retorna à página principal'>Voltar</a>
+                <a href="index.php" class="btn btn-lg btn-block btn-default spacing" title='Retorna Ã  pÃ¡gina principal'>Voltar</a>
             </div>
             <div class="col-sm-3">
-                <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning spacing" title='Encerra a sessão e retorna à página de login'>Sair</a>
+                <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning spacing" title='Encerra a sessÃ£o e retorna Ã  pÃ¡gina de login'>Sair</a>
             </div>
         </div>
         <br style='margin-top: 10px' />

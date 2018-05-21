@@ -3,7 +3,7 @@ include_once '../cls/senha_padraoDAO.class.php';
 include_once '../cls/sessao.class.php';
 
 $sessao = new Sessao();
-//Confere se a autenticação foi validada.
+//Confere se a autenticaï¿½ï¿½o foi validada.
 if(!$sessao->situacaoOK()){
     header("location: ../php/logoff.php");
 }
@@ -18,7 +18,7 @@ $padrao = new Senha_padraoDAO();
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -48,7 +48,7 @@ $padrao = new Senha_padraoDAO();
     <div class="container content">
         <div class="row">
             <div class="form-group col-md-6">
-                <h2>Consultar Senha Padrão</h2>
+                <h2>Consultar Senha PadrÃ£o</h2>
                 <form role="form" action="../php/cadastrar_padrao.php" method="POST">
                     <br class="visible-md visible-lg" />
                     <label>Senha Atual</label>
@@ -58,11 +58,11 @@ $padrao = new Senha_padraoDAO();
                     <br class="visible-md visible-lg" />
                     <div class="row">
                         <div class='col-md-6 col-sm-6 spacing'>
-                            <a href="index.php" class="btn btn-lg btn-block btn-default" title="Cancela o cadastro e volta à pagina ininical">
+                            <a href="index.php" class="btn btn-lg btn-block btn-default" title="Cancela o cadastro e volta Ã  pÃ¡gina ininical">
                                 <span class="glyphicon glyphicon-remove"></span> Voltar</a>
                         </div>
                         <div class='col-md-6 col-sm-6 spacing'>
-                            <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning" title="Encerra a sessão e retorna à página de login">
+                            <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning" title="Encerra a sessÃ£o e retorna Ã  pÃ¡gina de login">
                                 <span class=" glyphicon glyphicon-off"></span> Sair</a>
                         </div>
                     </div>

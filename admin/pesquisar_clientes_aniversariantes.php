@@ -16,7 +16,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -57,11 +57,11 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-md-3">
-                <a href="index.php" class="btn btn-lg btn-block btn-default" title="Retornar à página inicial">
+                <a href="index.php" class="btn btn-lg btn-block btn-default" title="Retornar Ã  pÃ¡gina inicial">
                     <span class="glyphicon glyphicon-remove"></span> Voltar</a>
             </div>
             <div class="col-sm-4 col-md-3">
-                <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning" title="Encerra a sessão e retorna à página de login">
+                <a href="../php/logoff.php" class="btn btn-lg btn-block btn-warning" title="Encerra a sessÃ£o e retorna Ã  pÃ¡gina de login">
                     <span class="glyphicon glyphicon-off"></span> Sair</a>
             </div>
         </div>

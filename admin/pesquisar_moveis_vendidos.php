@@ -16,7 +16,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
 
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -52,7 +52,7 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
                 <h2>Pesquisar Notas de Venda</h2>
                 <br/>
                 <div class="radio">
-                    <label title='Retorna todas as notas de vendas registradas em um dia específico'>
+                    <label title='Retorna todas as notas de vendas registradas em um dia especÃ­fico'>
                         <input type='radio' name='radio' id='dia' onclick="consultaCampo()" /> Pesquisar por Dia.
                     </label>
                     <div id="campo_dia" ></div>
@@ -63,17 +63,17 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
                     <div id="campo_datas"></div>
                     <br/>
                     <label title='Retorna as vendas registradas em um intervalo de data determinado'>
-                        <input type='radio' name='radio' id='periodo_vend' onclick="consultaCampo()" > Relatório de vendas por vendedor.
+                        <input type='radio' name='radio' id='periodo_vend' onclick="consultaCampo()" > RelatÃ³rio de vendas por vendedor.
                     </label>
                     <div id="campo_datas_vendedor"></div>
                     <br/>
-                    <label title='Retorna as últimas notas de vendas registradas pelo nome do cliente'>
+                    <label title='Retorna as Ãºltimas notas de vendas registradas pelo nome do cliente'>
                         <input type="radio" name="radio" id="rd_clientes" onclick="consultaCampo()"> Pesquisar notas de vendas por clientes.
                     </label>
                     <div id="campo_pesquisar_cliente"></div>
                     <br/>
                     <label title='Retorna nota de venda citada'>
-                        <input type='radio' name='radio' id='nota' onclick="consultaCampo()" > Exibir Nota de Venda Específica.
+                        <input type='radio' name='radio' id='nota' onclick="consultaCampo()" > Exibir Nota de Venda EspecÃ­fica.
                     </label>
                     <div id="campo_nota"></div>
                     <br/>
@@ -84,11 +84,11 @@ if(strcmp($sessao->getFuncao(), 'administrador')!==0){
                 </div>
                 <br/>
                 <div class="col-md-6">
-                    <a href="index.php" class='btn btn-lg btn-block btn-default' title='Retorna à página principal' >
+                    <a href="index.php" class='btn btn-lg btn-block btn-default' title='Retorna Ã  pÃ¡gina principal' >
                         <span class="glyphicon glyphicon-remove"></span> Voltar</a>
                 </div>
                 <div class="col-md-6">
-                    <a href="../php/logoff.php" class='btn btn-lg btn-block btn-warning' title='Encerra a sessão e redireciona à página de login' >
+                    <a href="../php/logoff.php" class='btn btn-lg btn-block btn-warning' title='Encerra a sessÃ£o e redireciona Ã  pÃ¡gina de login' >
                         <span class="glyphicon glyphicon-off"></span> Sair</a>
                 </div>
             </div>

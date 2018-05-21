@@ -2,9 +2,9 @@
 include_once '../cls/sessao.class.php';
 
 /*
- * @author Alessandro Marvão <alessandromarvao@gmail.com>
+ * @author Alessandro Marvï¿½o <alessandromarvao@gmail.com>
  * @version 0.1
- * @copyright (c) 2015, Alessandro Marvão
+ * @copyright (c) 2015, Alessandro Marvï¿½o
  */
 
 //$sessao = new Sessao();
@@ -22,7 +22,7 @@ include_once '../cls/sessao.class.php';
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -55,9 +55,9 @@ include_once '../cls/sessao.class.php';
     <div class="container content">
         <div class="row">
             <div class="form-group col-md-8 col-lg-6">
-                <h2>Cadastro de Móvel</h2>
+                <h2>Cadastro de MÃ³vel</h2>
                 <br />
-                <h4>Adicionar móveis a partir de arquivo XML</h4>
+                <h4>Adicionar mÃ³veis a partir de arquivo XML</h4>
                 <div class="form-inline">
                     <input type="file" id="file" class="form-control" />
                     <button type="button" class="btn btn-success" onclick="salvar()" >
@@ -86,12 +86,12 @@ include_once '../cls/sessao.class.php';
                         <option value='ABAJUR'>ABAJUR</option>
                         <option value='ALMOFADA'>ALMOFADA</option>
                         <option value='APARADOR'>APARADOR</option>
-                        <option value='ARMARIO/AÇO'>ARMARIO /AÇO</option>
+                        <option value='ARMARIO/AÃ‡O'>ARMARIO /AÃ‡O</option>
                         <option value='ARMARIO/COZINHA'>ARMARIO /COZINHA</option>
-                        <option value='ARMARIO/ESCRITÓRIO'>ARMARIO /ESCRITÓRIO</option>
-                        <option value='BALCÃO/AÇO'>BALCÃO /AÇO </option>
-                        <option value='BALCÃO/COZINHA'>BALCÃO /COZINHA</option>
-                        <option value='BALCÃO/ESCRITÓRIO'>BALCÃO /ESCRITÓRIO</option>
+                        <option value='ARMARIO/ESCRITÃ“RIO'>ARMARIO /ESCRITÃ“RIO</option>
+                        <option value='BALCÃƒO/AÃ‡O'>BALCÃƒO/AÃ‡O </option>
+                        <option value='BALCÃƒO/COZINHA'>BALCÃƒO/COZINHA</option>
+                        <option value='BALCÃƒO/ESCRITÃ“RIO'>BALCÃƒO/ESCRITÃ“RIO</option>
                         <option value='BANCO'>BANCO</option>
                         <option value='BANDEIJA'>BANDEIJA</option>
                         <option value='BANHEIRA'>BANHEIRA</option>
@@ -105,20 +105,20 @@ include_once '../cls/sessao.class.php';
                         <option value='BASE LATERAL'>BASE LATERAL</option>
                         <option value='BAUZINHO'>BAUZINHO</option>
                         <option value='BELICHE'>BELICHE</option>
-                        <option value='BERÇO'>BERÇO</option>
-                        <option value='BERÇO AMERICANO'>BERÇO AMERICANO</option>
+                        <option value='BERÃ‡O'>BERÃ‡O</option>
+                        <option value='BERÃ‡O AMERICANO'>BERÃ‡O AMERICANO</option>
                         <option value='BICAMA'>BICAMA</option>
-                        <option value='BUFFET /BALCÃO'>BUFFET /BALCÃO</option>
+                        <option value='BUFFET /BALCÃƒO'>BUFFET /BALCÃƒO</option>
                         <option value='CABECEIRA'>CABECEIRA</option>
                         <option value='CABIDEIRO'>CABIDEIRO</option>
                         <option value='CADEIRA'>CADEIRA</option>
                         <option value='CADEIRA APOIO'>CADEIRA APOIO </option>
                         <option value='CADEIRA AVULSA'>CADEIRA AVULSA</option>
-                        <option value='CADEIRA ESCRITÓRIO'>CADEIRA ESCRITÓRIO</option>
+                        <option value='CADEIRA ESCRITÃ“RIO'>CADEIRA ESCRITÃ“RIO</option>
                         <option value='CADEIRA JANTAR'>CADEIRA JANTAR</option>
                         <option value='CADEIRA/CARRO'>CADEIRA/CARRO</option>
                         <option value='CAMA AUXILIAR'>CAMA AUXILIAR</option>
-                        <option value='CAMA BABÁ'>CAMA BABÁ</option>
+                        <option value='CAMA BABÃ'>CAMA BABÃ</option>
                         <option value='CAMA CAMPANHA'>CAMA CAMPANHA</option>
                         <option value='CAMA INFANTIL'>CAMA INFANTIL</option>
                         <option value='CAMA SOLTEIRO'>CAMA SOLTEIRO</option>
@@ -126,11 +126,11 @@ include_once '../cls/sessao.class.php';
                         <option value='CANTINHO TRIBO'>CANTINHO TRIBO</option>
                         <option value='CARRINHO'>CARRINHO</option>
                         <option value='CERCADO'>CERCADO</option>
-                        <option value='COLCHÃO'>COLCHÃO </option>
+                        <option value='COLCHÃƒO'>COLCHÃƒO </option>
                         <option value='COMODA'>COMODA</option>
                         <option value='COMODA INFANTIL'>COMODA INFANTIL</option>
-                        <option value='CONEXÃO P/ ESCRITÓRIO'>CONEXÃO P/ ESCRITÓRIO </option>
-                        <option value='CONJUNTO TERRAÇO'>CONJUNTO TERRAÇO</option>
+                        <option value='CONEXÃƒO P/ ESCRITÃ“RIO'>CONEXÃƒO P/ ESCRITÃ“RIO </option>
+                        <option value='CONJUNTO TERRAÃ‡O'>CONJUNTO TERRAÃ‡O</option>
                         <option value='CONSOLE'>CONSOLE</option>
                         <option value='COOK-TOP'>COOK-TOP</option>
                         <option value='CORTINA VOAL'>CORTINA VOAL</option>
@@ -141,9 +141,9 @@ include_once '../cls/sessao.class.php';
                         <option value='ENCOSTO TV'>ENCOSTO TV</option>
                         <option value='ENFEITE DE PORTA'>ENFEITE DE PORTA</option>
                         <option value='ENFEITE DE TETO'>ENFEITE DE TETO</option>
-                        <option value='ESTANTE /ESCRITÓRIO'>ESTANTE /ESCRITÓRIO</option>
+                        <option value='ESTANTE /ESCRITÃ“RIO'>ESTANTE /ESCRITÃ“RIO</option>
                         <option value='ESTANTE /HOME'>ESTANTE /HOME</option>
-                        <option value='ESTEIRA P/ SOFÁ'>ESTEIRA P/ SOFÁ </option>
+                        <option value='ESTEIRA P/ SOFÃ'>ESTEIRA P/ SOFÃ </option>
                         <option value='ESTOFADO'>ESTOFADO</option>
                         <option value='FARMACINHA'>FARMACINHA</option>
                         <option value='FORNO'>FORNO</option>
@@ -151,16 +151,16 @@ include_once '../cls/sessao.class.php';
                         <option value='HOME'>HOME</option>
                         <option value='JOGO DE POTE'>JOGO DE POTE</option>
                         <option value='KIT /COZINHA'>KIT /COZINHA</option>
-                        <option value='KIT DE BERÇO'>KIT DE BERÇO</option>
-                        <option value='LUMINÁRIA'>LUMINÁRIA</option>
-                        <option value='MESA /ESCRITÓRIO'>MESA /ESCRITÓRIO</option>
+                        <option value='KIT DE BERÃ‡O'>KIT DE BERÃ‡O</option>
+                        <option value='LUMINÃRIA'>LUMINÃRIA</option>
+                        <option value='MESA /ESCRITÃ“RIO'>MESA /ESCRITÃ“RIO</option>
                         <option value='MESA APOIO'>MESA APOIO</option>
-                        <option value='MESA APROXIMAÇÃO'>MESA APROXIMAÇÃO</option>
+                        <option value='MESA APROXIMAÃ‡ÃƒO'>MESA APROXIMAÃ‡ÃƒO</option>
                         <option value='MESA CENTRO'>MESA CENTRO</option>
                         <option value='MESA JANTAR'>MESA JANTAR </option>
                         <option value='MESA LATERAL'>MESA LATERAL</option>
                         <option value='MESA P/COMPUTADOR'>MESA P/COMPUTADOR</option>
-                        <option value='MESA/ESCRITÓRIO'>MESA/ESCRITÓRIO</option>
+                        <option value='MESA/ESCRITÃ“RIO'>MESA/ESCRITÃ“RIO</option>
                         <option value='MODULO BANCADA'>MODULO BANCADA</option>
                         <option value='MODULO PAINEL'>MODULO PAINEL</option>
                         <option value='MODULO TORRE'>MODULO TORRE</option>
@@ -172,14 +172,14 @@ include_once '../cls/sessao.class.php';
                         <option value='PAINEL TV'>PAINEL TV</option>
                         <option value='PANELEIRO'>PANELEIRO</option>
                         <option value='POLTRONA/PAPAI'>POLTRONA/PAPAI</option>
-                        <option value='POLTRONA AMAMENTAÇÃO'>POLTRONA AMAMENTAÇÃO</option>
+                        <option value='POLTRONA AMAMENTAÃ‡ÃƒO'>POLTRONA AMAMENTAÃ‡ÃƒO</option>
                         <option value='POLTRONA APOIO '>POLTRONA APOIO </option>
                         <option value='PRATELEIRA'>PRATELEIRA</option>
-                        <option value='PRATO GIRATÓRIO'>PRATO GIRATÓRIO</option>
+                        <option value='PRATO GIRATÃ“RIO'>PRATO GIRATÃ“RIO</option>
                         <option value='PUFF'>PUFF</option>
                         <option value='RACK'>RACK</option>
                         <option value='RACK/MULTIUSO'>RACK/MULTIUSO</option>
-                        <option value='RACK BALCÃO'>RACK BALCÃO</option>
+                        <option value='RACK BALCÃƒO'>RACK BALCÃƒO</option>
                         <option value='RACK BANCADA'>RACK BANCADA</option>
                         <option value='RECAMIER'>RECAMIER</option>
                         <option value='REVISTEIRO'>REVISTEIRO</option>
@@ -187,7 +187,7 @@ include_once '../cls/sessao.class.php';
                         <option value='ROUPEIRO'>ROUPEIRO</option>
                         <option value='ROUPEIRO INFANTIL'>ROUPEIRO INFANTIL</option>
                         <option value='SALA JANTAR'>SALA JANTAR</option>
-                        <option value='SOFÁ-CAMA'>SOFÁ-CAMA</option>
+                        <option value='SOFÃ-CAMA'>SOFÃ-CAMA</option>
                         <option value='TABUA PASSAR'>TABUA PASSAR</option>
                         <option value='TAMPO CENTRO'>TAMPO CENTRO</option>
                         <option value='TAMPO CONSOLE'>TAMPO CONSOLE</option>
@@ -205,18 +205,18 @@ include_once '../cls/sessao.class.php';
                     </select>
                     <br class="visible-md visible-lg" />
                     <label>Modelo</label>
-                    <input type="text" name="txtModelo" class="form-control" placeholder="Digite aqui o modelo do móvel" />
+                    <input type="text" name="txtModelo" class="form-control" placeholder="Digite aqui o modelo do mÃ³vel" />
                     <br class="visible-md visible-lg" />
-                    <label>Preço Final</label>
+                    <label>PreÃ§o Final</label>
                     <div class="input-group">
                         <div class="input-group-addon">R$</div>
-                        <input type="text" name="txtValor" class="form-control" placeholder="Digite aqui o valor que o móvel será vendido ao cliente" />
+                        <input type="text" name="txtValor" class="form-control" placeholder="Digite aqui o valor que o mÃ³vel serÃ¡ vendido ao cliente" />
                     </div>
                     <br class="visible-md visible-lg" />
                     <br/>
                     <div class="row">
                         <div class='col-md-4 col-sm-4 spacing'>
-                            <button type="submit" class="btn btn-lg btn-block btn-success" form="form1" value="Submit" title="Confirma o cadastro. Você será encaminhado à página de confirmação">
+                            <button type="submit" class="btn btn-lg btn-block btn-success" form="form1" value="Submit" title="Confirma o cadastro. VocÃª serÃ¡ encaminhado Ã  pÃ¡gina de confirmaÃ§Ã£o">
                                 <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Cadastrar
                             </button>
                         </div>
@@ -226,7 +226,7 @@ include_once '../cls/sessao.class.php';
                             </button>
                         </div>
                         <div class='col-md-4 col-sm-4 spacing'>
-                            <a href="index.php" class="btn btn-lg btn-block btn-warning" title="Cancela o cadastro e volta à pagina ininical">
+                            <a href="index.php" class="btn btn-lg btn-block btn-warning" title="Cancela o cadastro e volta Ã  pÃ¡gina ininical">
                                 <span class="glyphicon glyphicon-remove"></span> Cancelar
                             </a>
                         </div>

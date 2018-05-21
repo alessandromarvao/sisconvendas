@@ -32,7 +32,7 @@ if(isset($_REQUEST['data2'])){
 
 <html>
 <head>
-    <meta charset="Windows-1252">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sistema de Controle de Estoque e Vendas</title>
@@ -81,7 +81,7 @@ if(isset($_REQUEST['data2'])){
     </div>
     <div class='lead'>
         <div class="text-center spacing">
-            RELATÓRIO DE VENDAS: 
+            RELATÃ“RIO DE VENDAS: 
             <div id="periodo" class='underlined'></div>
         </div>
         <br />
