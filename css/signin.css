@@ -1,0 +1,130 @@
+body {
+  /*background-color: #c9302c;*/
+  /*background-color: #B52B28;*/
+  /*background-color: #BE2D2A;*/
+  background-color: #C02E2A;
+}
+.bg_login{
+    background-color: #990000;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#img_movel{
+    margin-top: 15%;
+    width: 100%;
+}
+.img_lateral{
+    width: 80%;
+}
+.head-spacing{
+    margin-top: 7%;
+}
+.spacing{
+    margin-top: 2%;
+}
+.md-spacing{
+    margin-top: 3%;
+}
+.tabela{
+    margin-top: -18px;
+}
+.margemSuperior{
+    margin-top: -10px;
+}
+.quebraPagina{
+    page-break-after: always;
+}
+.sublinhado{
+    color: #000;
+    border-top: 1px solid;
+}
+.img_lateral1{
+    width: 35%;
+    position: fixed;
+}
+.img_lateral{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+}
+.bg_lft{
+    background-image: url(../img/EC-logo-min.png);
+    background-position: calc(25%);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.bg_cntr{
+    background-image: url(../img/EC-logo-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.bg_herdado{
+    background-image: url(../img/EC-logo-min.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.underlined{
+    border-bottom: 1px solid;
+}
+.mg-horizontal {
+    margin-left: 30px;
+}
+.sp-horizontal{
+    width: 93px;
+    font-size: 12px;
+}
+.mg1{
+    width: 88px;
+}
+.tabela-sem-bordas{
+    border-top: none;
+}
+.quadrado{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 50px;
+    margin-top: -15;
+    width: 15px;
+    height: 15px;
+}
+.rodape{
+    margin-top: 20px;
+}
+.text-right{
+    margin-top: 140px;
+}
